@@ -41,9 +41,10 @@ python aura.py -u https://example.com --dry-run --run-full
 ```
 ---
 ⚙️ Command-Line Options
-python aura.py -u <URL> [OPTIONS]
+> python aura.py -u <URL> [OPTIONS]
 
 Option	Description
+```
 • -u, --url	Target URL (required)
 • --depth N	Maximum crawl depth (default: 2)
 • --delay SECONDS	Delay between requests (default: 1)
@@ -51,4 +52,5 @@ Option	Description
 • --allow-destructive	Run potentially destructive tests (⚠️ use only with permission)
 • --run-full	Run all vulnerability checks
 • --dry-run	Development mode (no requests sent)
+```
 ---
