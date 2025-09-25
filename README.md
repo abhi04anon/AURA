@@ -34,21 +34,21 @@ pip install -r requirements.txt
 Run a scan
 ```
 python aura.py -u https://example.com --run-full --depth 2
-
-``Use safe development mode``
-
-```python aura.py -u https://example.com --dry-run --run-full
+```
+Use safe development mode``
+```
+python aura.py -u https://example.com --dry-run --run-full
 ```
 ---
 ⚙️ Command-Line Options
 python aura.py -u <URL> [OPTIONS]
 
 Option	Description
--u, --url	Target URL (required)
---depth N	Maximum crawl depth (default: 2)
---delay SECONDS	Delay between requests (default: 1)
---timeout SECONDS	Request timeout (default: 10)
---allow-destructive	Run potentially destructive tests (⚠️ use only with permission)
---run-full	Run all vulnerability checks
---dry-run	Development mode (no requests sent)
+• -u, --url	Target URL (required)
+• --depth N	Maximum crawl depth (default: 2)
+• --delay SECONDS	Delay between requests (default: 1)
+• --timeout SECONDS	Request timeout (default: 10)
+• --allow-destructive	Run potentially destructive tests (⚠️ use only with permission)
+• --run-full	Run all vulnerability checks
+• --dry-run	Development mode (no requests sent)
 ---
