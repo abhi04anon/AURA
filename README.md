@@ -32,10 +32,13 @@ pip install -r requirements.txt
 ```
 ---
 Run a scan
+```
 python aura.py -u https://example.com --run-full --depth 2
 
-Use safe development mode
-python aura.py -u https://example.com --dry-run --run-full
+``Use safe development mode``
+
+```python aura.py -u https://example.com --dry-run --run-full
+```
 ---
 ⚙️ Command-Line Options
 python aura.py -u <URL> [OPTIONS]
