@@ -24,9 +24,28 @@ Do **not** use AURA against systems you do not own or explicitly have permission
 
 ### 1. Clone and set up
 ```bash
-git clone https://github.com/yourusername/aura.git
+git clone https://github.com/abhi10/aura.git
 cd aura
 python -m venv .venv
 source .venv/bin/activate   # On Windows use: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
+---
+Run a scan
+python aura.py -u https://example.com --run-full --depth 2
+
+Use safe development mode
+python aura.py -u https://example.com --dry-run --run-full
+---
+⚙️ Command-Line Options
+python aura.py -u <URL> [OPTIONS]
+
+Option	Description
+-u, --url	Target URL (required)
+--depth N	Maximum crawl depth (default: 2)
+--delay SECONDS	Delay between requests (default: 1)
+--timeout SECONDS	Request timeout (default: 10)
+--allow-destructive	Run potentially destructive tests (⚠️ use only with permission)
+--run-full	Run all vulnerability checks
+--dry-run	Development mode (no requests sent)
+---
