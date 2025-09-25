@@ -22,7 +22,7 @@ Do **not** use AURA against systems you do not own or explicitly have permission
 
 ## 🚀 Quickstart
 
-### 1. Clone and set up
+### 😉 Clone and set up
 ```bash
 git clone https://github.com/abhi10/aura.git
 cd aura
@@ -41,7 +41,7 @@ python aura.py -u https://example.com --dry-run --run-full
 ```
 ---
 ⚙️ Command-Line Options
-> python aura.py -u <URL> [OPTIONS]
+#### python aura.py -u <URL> [OPTIONS]
 
 Option	Description
 ```
