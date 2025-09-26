@@ -1,3 +1,15 @@
+
+
+
+
+![AURA](https://github.com/user-attachments/assets/db796490-b5ad-40cf-803d-97912eb53a64)
+
+
+
+
+
+
+
 # 🌐 AURA — Automated Unified Risk Assessment
 
 **AURA** is a Python-based, command-line tool for **web security reconnaissance** and **lightweight vulnerability scanning**.  
